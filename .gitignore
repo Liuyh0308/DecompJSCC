@@ -1,0 +1,91 @@
+# Python and build outputs
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.o
+*.a
+*.d
+
+# Local editor and agent state
+/.planning/
+/.codex/
+/.cursor/
+/.claude/
+/.vscode/
+.idea/
+
+# Datasets and weights
+/datasets/*
+!/datasets/.gitkeep
+/checkpoints/*
+!/checkpoints/.gitkeep
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+*.safetensors
+
+# Experiment outputs
+/runs/
+/exp_log/
+/outputs/
+/tmp/
+
+# Environments, caches and temporary files
+.venv*/
+venv/
+.cache/
+.*_cache/
+.ipynb_checkpoints/
+.coverage
+.coverage.*
+htmlcov/
+*.tmp
+*.swp
+*~
+.DS_Store
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.template
+.netrc
+.pypirc
+.aws/
+.ssh/
+*.pem
+*.key
+
+# Archives
+/*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tgz
+
+# Keep the bundled BPG executables
+/external_baselines/bpg_ldpc/bin/*
+!/external_baselines/bpg_ldpc/bin/.gitkeep
+!/external_baselines/bpg_ldpc/bin/bpgenc
+!/external_baselines/bpg_ldpc/bin/bpgdec
+
+# Upstream BPG build outputs
+/external_baselines/bpg_ldpc/upstream/libbpg-0.9.8/x265.out/
+/external_baselines/bpg_ldpc/upstream/libbpg-0.9.8/bpgenc
+/external_baselines/bpg_ldpc/upstream/libbpg-0.9.8/bpgdec
+/external_baselines/bpg_ldpc/upstream/libbpg-0.9.8/bpgview
+
+# Keep x265 build scripts; ignore generated files in the same tree
+!**/x265/build/
+**/x265/build/**
+!**/x265/build/**/
+!**/x265/build/README.txt
+!**/x265/build/*/*.sh
+!**/x265/build/*/*.bash
+!**/x265/build/*/*.bat
+!**/x265/build/*/toolchain-*.cmake
