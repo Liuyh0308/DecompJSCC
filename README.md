@@ -4,6 +4,14 @@
 
 A PyTorch implementation of DecompJSCC for joint source-channel coding of images. The repository includes the main model, training and evaluation code, mechanism analysis tools, and the SwinJSCC, ADJSCC, SNR-EQ-JSCC, SA-RA-JSCC, and BPG+LDPC baselines.
 
+This repository accompanies the paper **DecompJSCC: Joint Source-Channel Coding With Decoupled SNR and Rate Adaptation** ([arXiv:2611.18379](https://doi.org/10.48550/arXiv.2611.18379)).
+
+| Resource | Link |
+|---|---|
+| Paper | https://doi.org/10.48550/arXiv.2611.18379 |
+| Model weights | https://huggingface.co/liuyh0308/DecompJSCC |
+| Dataset | https://huggingface.co/datasets/liuyh0308/DecompJSCC-datasets |
+
 Follow this workflow: **install the environment → prepare datasets and any required pretrained weights → preview the training configuration → run a small trial → train → evaluate**. Run all commands from the repository root and save experiment results under `outputs/`.
 
 ## 1. Environment setup

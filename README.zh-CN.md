@@ -4,6 +4,14 @@
 
 DecompJSCC 的 PyTorch 实现，用于图像联合信源信道编码。仓库包含主模型、训练与评测代码、机制分析工具，以及 SwinJSCC、ADJSCC、SNR-EQ-JSCC、SA-RA-JSCC 和 BPG+LDPC 对比方法。
 
+本仓库对应论文 **DecompJSCC: Joint Source-Channel Coding With Decoupled SNR and Rate Adaptation**（[arXiv:2611.18379](https://doi.org/10.48550/arXiv.2611.18379)）。
+
+| 资源 | 地址 |
+|---|---|
+| 论文 | https://doi.org/10.48550/arXiv.2611.18379 |
+| 模型权重 | https://huggingface.co/liuyh0308/DecompJSCC |
+| 数据集 | https://huggingface.co/datasets/liuyh0308/DecompJSCC-datasets |
+
 建议按 README 依次完成：**安装环境 → 准备数据集（与预训练模型权重） → 预览训练参数 → 小规模试跑 → 训练 → 评测**。以下命令均在项目根目录执行，实验结果统一放入 `outputs/`。
 
 ## 1. 安装环境
