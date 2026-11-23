@@ -1,1 +1,1 @@
-external_baselines/** linguist-detectable=false
+*.py linguist-language=Python
