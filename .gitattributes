@@ -1,1 +1,4 @@
+*.s linguist-detectable=false
+*.asm linguist-detectable=false
+
 *.py linguist-vendored
