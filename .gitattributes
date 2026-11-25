@@ -1,6 +1,1 @@
-*.s linguist-detectable=false
-*.S linguist-detectable=false
-*.asm linguist-detectable=false
-
-*.py linguist-language=Python
-*.py linguist-detectable=true
+external_baselines/bpg_ldpc/upstream/** linguist-detectable=false
